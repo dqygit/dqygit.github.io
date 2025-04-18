@@ -6,9 +6,9 @@ export default defineNuxtConfig({
   app:{
     baseURL: '/nuxt-github-pages/'
   },
-  nitro:{
-    output:{
-      publicDir:path.join(__dirname,'docs')
-    }
-  }
+  // nitro:{
+  //   output:{
+  //     publicDir:path.join(__dirname,'docs')
+  //   }
+  // }
 })
